@@ -48,7 +48,7 @@ nav_order: 1
     <p>已完成初步性能测试与人体/模拟实验验证，后续将继续完善评价指标与样本覆盖。</p>
   </div>
   <div class="pm-card">
-    <h4>Publication / IP <span class="pm-badge pm-badge-ongoing">Ongoing</span></h4>
+    <h4>Publication/IP <span class="pm-badge pm-badge-ongoing">Ongoing</span></h4>
     <p>相关学术论文已完成撰写并进入投稿流程，专利与成果转化工作正在推进中。</p>
   </div>
 </div>
