@@ -84,6 +84,12 @@
   .pm-navbar-logo {
     height: 24px;
   }
+
+  .navbar .navbar-nav .pm-navbar-logo-item {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-end;
+  }
 }
 
 .navbar .dropdown-menu,
@@ -296,11 +302,30 @@ a.pm-tag:hover {
   border: 1px solid rgba(0, 37, 84, 0.2);
 }
 
+.pm-home-hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.85rem;
+  border: 1px solid rgba(0, 37, 84, 0.2);
+  margin-bottom: 1.2rem;
+}
+
 .pm-qr-title {
   color: var(--pm-primary);
   border-bottom: 2px solid rgba(0, 37, 84, 0.14);
   padding-bottom: 0.35rem;
   margin-bottom: 0.7rem;
+}
+
+.pm-qrcode-wrap {
+  text-align: center;
+}
+
+.pm-qrcode {
+  width: min(260px, 100%);
+  height: auto;
+  border: none;
+  border-radius: 0;
 }
 
 footer.sticky-bottom {

@@ -25,3 +25,8 @@ show_whu_logo: true
 ## 二维码访问
 
 <h4 class="pm-qr-title">项目主页二维码</h4>
+
+<div class="pm-qrcode-wrap">
+  <img class="pm-qrcode" src="{{ '/assets/img/pulmomask-qrcode.png' | relative_url }}" alt="PulmoMask 项目主页二维码">
+  <p>欢迎访问项目主页</p>
+</div>
