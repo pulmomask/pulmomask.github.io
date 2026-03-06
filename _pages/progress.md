@@ -5,7 +5,6 @@ permalink: /progress/
 description: 项目进展时间线与阶段状态
 nav: true
 nav_order: 1
-show_whu_logo: true
 ---
 
 ## 项目进展
@@ -23,7 +22,7 @@ show_whu_logo: true
     <h4>阶段二：可穿戴原型搭建</h4>
     <p>完成热电器件设计与装配，实现与柔性电路、信号采集模块及无线传输模块的集成，形成可运行的可穿戴原型系统。</p>
   </li>
-  <li class="current">
+  <li>
     <h4>阶段三：性能测试与参数验证</h4>
     <p>在受控气流条件下开展流速反演与系统性能测试，并进一步通过人体/模拟实验验证关键肺功能参数的重建能力。</p>
   </li>

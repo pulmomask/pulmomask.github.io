@@ -3,7 +3,6 @@ layout: page
 title: Home
 permalink: /
 description: 武汉大学大学生创新训练计划项目 · 项目公开展示页
-show_whu_logo: true
 mermaid:
   enabled: true
 ---

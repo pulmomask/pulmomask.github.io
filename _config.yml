@@ -23,6 +23,8 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 show_whu_nav_logo: true
 whu_nav_logo: /assets/img/whu-logo-trans.png
+show_whu_page_logo_inline: true
+whu_page_logo_inline: /assets/img/whu-logo-name.png
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -61,7 +63,7 @@ posts_in_search: false
 bib_search: false
 
 # Dimensions
-max_width: 930px
+max_width: 1280px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org

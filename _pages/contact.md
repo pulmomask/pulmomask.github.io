@@ -5,7 +5,6 @@ permalink: /contact/
 description: 联系与关注
 nav: true
 nav_order: 3
-show_whu_logo: true
 ---
 
 ## 联系与关注

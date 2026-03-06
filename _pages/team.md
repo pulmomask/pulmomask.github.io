@@ -5,7 +5,6 @@ permalink: /team/
 description: 项目团队与合作支持
 nav: true
 nav_order: 2
-show_whu_logo: true
 ---
 
 ## 项目团队
