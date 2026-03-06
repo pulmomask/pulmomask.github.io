@@ -1,34 +1,59 @@
 ---
-layout: about
-title: about
+layout: page
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
+description: 武汉大学大学生创新训练计划项目 · 项目公开展示页
+show_whu_logo: true
+mermaid:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<p class="pm-subtitle">PulmoMask · 可穿戴肺检测</p>
+<h2>基于热电-气流反演模型的可穿戴肺功能监测与 COPD 闭环筛查研究</h2>
+<p>面向肺功能评估、风险筛查与交互式康复训练的可穿戴系统探索</p>
+<p>本项目聚焦慢性阻塞性肺疾病等呼吸健康问题，围绕热电传感、气流反演与虚拟现实交互训练，构建了一套集“监测—评估—反馈”于一体的可穿戴闭环系统。项目旨在探索一种更加便携、低负担、适用于非临床场景的肺功能监测与康复辅助技术路径。</p>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<div class="pm-image-placeholder">
+  图片占位（首页横幅）：请放置 1 张整机展示图，推荐顺序：
+  1) 口罩整机照片；2) 佩戴实拍图；3) 口罩 + 上位机界面拼图。
+</div>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## 项目简介
+
+慢性阻塞性肺疾病（COPD）的早期筛查高度依赖 FVC、FEV1 及其比值等肺功能指标，但传统肺功能检测设备往往体积较大、使用场景受限，难以满足居家化和连续化监测需求。针对这一问题，本项目提出并实现了一种基于热电-气流反演模型的可穿戴肺功能监测与闭环筛查系统。项目从热电 Seebeck 效应与强制对流换热机理出发，探索由热电电压信号重建呼吸气流与肺功能参数的可行路径，并进一步结合虚拟现实训练模块，构建从量化评估到交互反馈的闭环系统框架。
+
+## 系统特色
+
+本项目当前形成的系统由可穿戴热电传感终端、信号采集与无线传输模块、上位机分析模块以及虚拟现实训练模块组成。与仅能提供单一呼吸信息的便携设备不同，本项目尝试实现关键肺功能参数的联合评估，并在此基础上探索风险识别与训练反馈的闭环联动。系统设计兼顾原型可运行性、工程集成度与后续扩展空间，已完成从理论建模、器件搭建到原型联调的阶段性闭环验证。
+
+```mermaid
+flowchart LR
+    A[可穿戴终端] --> B[数据采集]
+    B --> C[参数分析]
+    C --> D[训练反馈]
+```
+
+<div class="pm-image-placeholder">
+  图片占位（系统流程图）：请补 1 张简化流程图，仅保留四段式闭环流程，不展示公式、结构尺寸与详细电路细节。
+</div>
+
+## 阶段性公开信息
+
+<div class="pm-grid">
+  <div class="pm-card">
+    <h4>原型完成度</h4>
+    <p>项目已完成理论模型构建、器件制作、系统集成、性能测试与初步人体验证，形成完整可运行原型系统。</p>
+  </div>
+  <div class="pm-card">
+    <h4>论文与转化</h4>
+    <p>相关学术论文已完成撰写并进入投稿流程，知识产权相关工作正在推进中。</p>
+  </div>
+  <div class="pm-card">
+    <h4>持续更新</h4>
+    <p>本网站将持续更新项目公开进展，欢迎各位老师与评委关注。</p>
+  </div>
+</div>
+
+<div class="pm-note">
+  本网站为项目公开展示页，主要介绍项目背景、系统概览、阶段性进展与非保密成果。涉及未公开论文、专利申请及可实施技术细节的内容暂不在此披露。
+</div>

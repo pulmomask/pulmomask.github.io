@@ -135,6 +135,16 @@
               </button>
             </li>
           {% endif %}
+
+          {% if site.show_whu_nav_logo %}
+            <li class="nav-item pm-navbar-logo-item" aria-hidden="true">
+              <img
+                class="pm-navbar-logo"
+                src="{{ site.whu_nav_logo | default: '/assets/img/whu-logo-trans.png' | relative_url }}"
+                alt="武汉大学校徽"
+              >
+            </li>
+          {% endif %}
         </ul>
       </div>
     </div>
